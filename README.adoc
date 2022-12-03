@@ -1,0 +1,13 @@
+# Advent of code 2022
+
+## How to run
+
+### Cpp sources
+
+Unless otherwise specified:
+
+`g++ solution.cpp -Wall -Werror -std=c++20 -o solution && ./solution`
+
+### Python sources
+
+`python3 solution.py`
