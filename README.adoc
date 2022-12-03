@@ -6,7 +6,7 @@
 
 Unless otherwise specified:
 
-`g++ solution.cpp -Wall -Werror -std=c++20 -o solution && ./solution`
+`g{plus}{plus} solution.cpp -Wall -Werror -std=c{plus}{plus}20 -o solution && ./solution`
 
 ### Python sources
 
