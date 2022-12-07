@@ -1,0 +1,9 @@
+# Day 7
+
+I've used the https://github.com/serge-sans-paille/frozen[`frozen`] library for a `constexpr unordered_map` in this solution, so the include directory to said library's header files need to be specified.
+
+The relevant header files can be found in the `include/` folder.
+
+## How to run
+
+`g{plus}{plus} solution.cpp -Wall -Werror -std=c{plus}{plus}20 -o solution -I include && ./solution`
