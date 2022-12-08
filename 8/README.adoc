@@ -1,0 +1,9 @@
+# Day 8
+
+I've used the https://github.com/eric-niebler/range-v3[`range-v3`] library for the `ranges::view::unique` view, which is missing from the `<range>` header for some reason.
+
+The relevant header files can be found in the `include/` folder.
+
+## How to run
+
+`g{plus}{plus} solution.cpp -Wall -Werror -std=c{plus}{plus}20 -o solution -I include && ./solution`
