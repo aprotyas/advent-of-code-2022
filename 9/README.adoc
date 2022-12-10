@@ -1,0 +1,9 @@
+# Day 9
+
+I've used the https://www.boost.org/doc/libs/1_80_0/libs/container_hash/doc/html/hash.html[`Boost.ContainerHash`] library for the `boost::hash_combine` utility, which allows ergonomically combining the hash of multiple integral values.
+
+Please install at least v1.67.0 of `libboost-container-dev` through your package manager.
+
+## How to run
+
+`g{plus}{plus} solution.cpp -Wall -Werror -std=c{plus}{plus}20 -o solution && ./solution`
